@@ -1,0 +1,25 @@
+/* styles.css (ou dans votre fichier de style) */
+
+.main-container {
+    height: 15%; /* 20% de la hauteur de la vue */
+    width: 100%; /* 100% de la largeur de la vue */
+    box-sizing: border-box;
+    display: flex; /* Utilisation de Flexbox pour aligner les enfants */
+  }
+  
+  .left-div, .right-div {
+    width: 50%; /* Chacun occupe 50% de la largeur de main-container */
+    box-sizing: border-box;
+  }
+  
+  .left-div {
+    background-color: #f2f2f2;
+  }
+  .navig{
+    display: flex;
+    justify-content:space-around;
+  }
+  .right-div {
+    background-color: #e6e6e6;
+  }
+  
